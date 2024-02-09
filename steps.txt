@@ -4,3 +4,4 @@ this is going to be my first step.
 ssh-add --apple-use-keychain 
 
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+ another step
