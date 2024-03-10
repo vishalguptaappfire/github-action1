@@ -5,3 +5,5 @@ ssh-add --apple-use-keychain
 
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
  another step
+
+ chekc chekc
