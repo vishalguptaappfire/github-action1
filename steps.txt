@@ -1,9 +1,20 @@
-this is going to be my first step.
+workflows
+  - jobs
 
 
-ssh-add --apple-use-keychain 
+Workflows contains jobs
+workflow triggered by events.
 
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
- another step
 
- chekc chekc
+Jobs
+Every job defined runner
+one or more steps
+
+
+steps
+belong to jobs
+Execute a shell script or action
+action can be third party
+Can be conditional
+
+
