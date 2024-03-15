@@ -15,7 +15,7 @@ jobs:
             - name: install dependency
               run: npm ci
             - name: RUn etsts
-              run: npm run tests   
+              run: npm run test  
     deploy:
       needs: test
       runs-on: ubuntu-latest
