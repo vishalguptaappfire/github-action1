@@ -32,5 +32,10 @@ jobs:
           run: npm ci
         - name: RUn etsts
           run: npm run build
-          
+    
+    info:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Info
+          run: echo "${{ toJSON(github )  }}"  
 
