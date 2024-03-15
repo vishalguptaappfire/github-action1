@@ -16,5 +16,21 @@ jobs:
               run: npm ci
             - name: RUn etsts
               run: npm run tests   
-
+    deploy:
+      needs: test
+      runs-on: ubuntu-latest
+      steps:
+        - name: FirstStep
+          run: echo "Test"
+        - name:  download code
+          uses: actions/checkout@v3
+        - name: Install node
+          uses: actions/setup-node@v3
+          with:
+            node-version: 18
+        - name: install dependency
+          run: npm ci
+        - name: RUn etsts
+          run: npm run build
+          
 
